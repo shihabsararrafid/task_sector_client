@@ -1,4 +1,4 @@
-function LikeButton() {
+export default function LikeButton() {
   const [liked, setLiked] = React.useState(false);
 
   if (liked) {
