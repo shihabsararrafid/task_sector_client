@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.root{
+    --clr:rgb(40, 108, 40);
+}
+#btn{
+
+    background-color:#0088a9;
+    width: 90px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+
+}
+#btn:hover{
+color: var(--clr);
+background-color: white;
+}
+body{
+
+    background-image: url('./bg.svg');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+ align-items: center;
+    background-size: 100% 100%;
+}
